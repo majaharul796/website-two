@@ -1,3 +1,21 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .orange-color{
     color: orange;
+}
+h1{
+    text-align: left;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 5%;
 }
