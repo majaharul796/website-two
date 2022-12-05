@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .orange-color{
@@ -18,4 +19,51 @@ h1{
 .half-width img{
     width: 100%;
     margin-top: 5%;
+}
+.top-banner{
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.p-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(0, 227, 252), rgb(255, 255, 255));
+    padding: 7px 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;    
+}
+.single-experiance{
+   box-shadow: 10px 10px 40px gray;
+   height: 80%;
+   border-radius: 10px;
+   background-color: white;
+}
+.Experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left  ;
+}
+#seniour{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
+    color: red;
 }
